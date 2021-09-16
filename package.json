@@ -1,0 +1,19 @@
+{
+  "name": "Trabalho",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "1": "ts-node-dev --quiet --clear --transpile-only --ignore-watch node_modules src/Question1.ts",
+    "2": "ts-node-dev --quiet --clear --transpile-only --ignore-watch node_modules src/Question2.ts",
+    "3": "ts-node-dev --quiet --clear --transpile-only --ignore-watch node_modules src/Question3.ts",
+    "4": "ts-node-dev --quiet --clear --transpile-only --ignore-watch node_modules src/Question4.ts",
+    "5": "ts-node-dev --quiet --clear --transpile-only --ignore-watch node_modules src/Question5.ts",
+    "6": "ts-node-dev --quiet --clear --transpile-only --ignore-watch node_modules src/Question6.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^16.9.1",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.4.2"
+  }
+}
